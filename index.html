@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/animations.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script src="//code.angularjs.org/snapshot/angular.min.js"></script>
 		<script src="//code.angularjs.org/snapshot/angular-animate.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
 	</head>
@@ -22,24 +22,20 @@
 		<div ng-controller="MainController">
 			<div class="col-md-4" ng-repeat="section in sections">
 				<select ng-model="selection" ng-options="mode for mode in $parent.modes"></select>
-				<hr>
-				<div class="animate-switch-container" ng-switch on="selection">
-					<div class="animate-switch" ng-switch-when="honest">
-						{{ section.honest.title }}
+				<div class="animate-switch-container container" ng-switch on="selection">
+					<div class="animate-switch" ng-switch-when="Honest">
+						<h3>{{ section.honest.title }}</h3>
 					</div>
-					<div class="animate-switch" ng-switch-when="bragging">
-						{{ section.braggy.title }}
+					<div class="animate-switch" ng-switch-when="Verbose">
+						<h3>{{ section.verbose.title }}</h3>
 					</div>
 					<div class="animate-switch" ng-switch-default>
-						{{ section.conventional.title }}
+						<h3>{{ section.conventional.title }}</h3>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- Modules -->
-		<script src="js/app.js"></script>
-		<!-- Controllers -->
 		<script src="js/controllers/MainController.js"></script>
 	</body>
 </html>

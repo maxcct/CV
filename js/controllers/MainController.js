@@ -1,4 +1,7 @@
-app.controller('MainController', ['$scope', function($scope) {
+(function(angular) {
+	'use strict';
+	angular.module('cvApp', ['ngAnimate'])
+	.controller('MainController', ['$scope', function($scope) {
 	$scope.sections = [
 		{
 			'conventional': {
@@ -9,8 +12,8 @@ app.controller('MainController', ['$scope', function($scope) {
 				title: 'Honest Education',
 				text: 'placeholder'
 			},
-			'braggy': {
-				title: 'Braggy Education',
+			'verbose': {
+				title: 'Verbose Education',
 				text: 'placeholder' 
 			}
 		},
@@ -24,8 +27,8 @@ app.controller('MainController', ['$scope', function($scope) {
 				title: 'Honest Experience',
 				text: 'placeholder'
 			},
-			'braggy': {
-				title: 'Braggy Experience',
+			'verbose': {
+				title: 'Verbose Experience',
 				text: 'placeholder' 
 			}
 		},
@@ -39,13 +42,14 @@ app.controller('MainController', ['$scope', function($scope) {
 				title: 'Honest Personal',
 				text: 'placeholder'
 			},
-			'braggy': {
-				title: 'Braggy Personal',
+			'verbose': {
+				title: 'Verbose Personal',
 				text: 'placeholder' 
 			}
 		}
 	];
 	$scope.modes = [
-		'conventional', 'honest', 'bragging'];
+		'Conventional', 'Honest', 'Verbose'];
 	$scope.selection = $scope.modes[0];
-}]);
+	}]);
+})(window.angular);
