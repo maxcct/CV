@@ -45,4 +45,7 @@ app.controller('MainController', ['$scope', function($scope) {
 			}
 		}
 	];
+	$scope.modes = [
+		'conventional', 'honest', 'bragging'];
+	$scope.selection = $scope.modes[0];
 }]);
