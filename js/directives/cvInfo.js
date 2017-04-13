@@ -19,9 +19,14 @@ app.directive('cvInfo', function() {
 		The data stored in the HMTL 'info' attribute is then available to
 		use in the template given by 'templateURL'.
 		*/
-			info: '=' 
+			info: '@'
 		}, 
-		templateUrl: 'js/directives/cvInfo.html'
+		templateUrl: 'js/directives/cvInfo.html',
+		link: function($scope) {
+			if ($scope === "conventional") {
+				var mode = "this stuff";
+			}
+		}
 		// Specifies the HTML to use in order to display the data in 'scope.info'.
 	}; 
 });

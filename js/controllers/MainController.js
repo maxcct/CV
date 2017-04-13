@@ -1,45 +1,45 @@
 app.controller('MainController', ['$scope', function($scope) {
 	$scope.sections = [
 		{
-			conventional: {
+			'conventional': {
 				title: 'Conventional Education',
 				text: 'placeholder'
 			},
-			honest: {
+			'honest': {
 				title: 'Honest Education',
 				text: 'placeholder'
 			},
-			braggy: {
+			'braggy': {
 				title: 'Braggy Education',
 				text: 'placeholder' 
 			}
 		},
 
 		{
-			conventional: {
+			'conventional': {
 				title: 'Conventional Experience',
 				text: 'placeholder'
 			},
-			honest: {
+			'honest': {
 				title: 'Honest Experience',
 				text: 'placeholder'
 			},
-			braggy: {
+			'braggy': {
 				title: 'Braggy Experience',
 				text: 'placeholder' 
 			}
 		},
 
 		{
-			conventional: {
+			'conventional': {
 				title: 'Conventional Personal',
 				text: 'placeholder'
 			},
-			honest: {
+			'honest': {
 				title: 'Honest Personal',
 				text: 'placeholder'
 			},
-			braggy: {
+			'braggy': {
 				title: 'Braggy Personal',
 				text: 'placeholder' 
 			}
