@@ -1,10 +1,11 @@
 .animate-switch-container {
   position:relative;
-  background:white;
-  border:1px solid black;
-  height:200px;
+  background: rgba(245,245,245,0.88);
+  height: 800px;
   max-width: 100%;
   overflow:hidden;
+  box-shadow: 0 0 4px #999;
+  color: #333;
 }
 
 .animate-switch {
@@ -12,7 +13,7 @@
 }
 
 .animate-switch.ng-animate {
-  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
   position:absolute;
   top:0;
   left:0;
@@ -30,6 +31,7 @@
 }
 
 /*
+Adapted by me from code published as follows:
 Copyright 2017 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license

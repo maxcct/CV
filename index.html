@@ -10,27 +10,46 @@
 		<link href="css/animations.css" rel="stylesheet">
 		<script src="//code.angularjs.org/snapshot/angular.min.js"></script>
 		<script src="//code.angularjs.org/snapshot/angular-animate.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
+		<script src="//code.angularjs.org/snapshot/angular-sanitize.js"></script>
 	</head>
 
-	<body ng-app="cvApp">
-		<div class="header">
-			<div class="container">
-				<h1></h1>
+	<body ng-app="cvApp" ng-controller="MainController" class="container">
+		<div class="header row">
+			<div class="col-md-2" id="left-details">
+				<a href="http://{{ github }}">{{ github }}</a>
+				<br>
+				<a href="http://{{ linkedin }}">{{ linkedin }}</a>
 			</div>
+			<div class="col-md-8">
+				<h1>{{ name }}</h1>
+			</div>
+			<div class="col-md-2" id="right-details">{{ email }}<br>{{ mobile }}</div>
 		</div>
-		<div ng-controller="MainController">
+		<br>
+		<div class="row">
 			<div class="col-md-4" ng-repeat="section in sections">
 				<select ng-model="selection" ng-options="mode for mode in $parent.modes"></select>
 				<div class="animate-switch-container container" ng-switch on="selection">
+					<h3><strong>{{ section.title }}</strong></h3>
 					<div class="animate-switch" ng-switch-when="Honest">
-						<h3>{{ section.honest.title }}</h3>
+						<div ng-repeat="entry in section.honest.entries">
+							<h5><strong>{{ entry.x }}</strong></h5>
+							<p><em>{{ entry.y }}</em></p>
+							<p>{{ entry.z }}</p>
+						</div>
 					</div>
 					<div class="animate-switch" ng-switch-when="Verbose">
-						<h3>{{ section.verbose.title }}</h3>
+						<div ng-repeat="entry in section.verbose.entries">
+							<h5><strong>{{ entry.x }}</strong></h5>
+							<p><em>{{ entry.y }}</em></p>
+							<p>{{ entry.z }}</p>
+						</div>
 					</div>
 					<div class="animate-switch" ng-switch-default>
-						<h3>{{ section.conventional.title }}</h3>
+						<div ng-repeat="entry in section.conventional.entries">
+							<h5><strong>{{ entry.x }}</strong></h5>
+							<p><em>{{ entry.y }}</em></p>
+						</div>
 					</div>
 				</div>
 			</div>

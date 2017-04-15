@@ -3,53 +3,64 @@
 	angular.module('cvApp', ['ngAnimate'])
 	.controller('MainController', ['$scope', function($scope) {
 	$scope.sections = [
-		{
+		{	
+			title: 'EDUCATION',
 			'conventional': {
-				title: 'Conventional Education',
-				text: 'placeholder'
+				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
+						  {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class'}]
 			},
 			'honest': {
-				title: 'Honest Education',
-				text: 'placeholder'
+				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
+					      {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class',
+						   z: 'Cambridge BAs are automatically upgraded to MA (Cantab) a few years after graduating.' +
+							  ' This is a little ridiculous.'}]
 			},
 			'verbose': {
-				title: 'Verbose Education',
-				text: 'placeholder' 
+				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
+						  {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class',
+						   z: 'I received firsts for my dissertations, but was dragged down by my exam scores, ' +
+						   	  'because my handwriting is hopelessly slow and I was always physically incapable of ' +
+						   	  'writing three complete essay answers in three hours. The fact that that archaic ' +
+						   	  'technology is still used for examinations seems absurd to me.'}]
 			}
 		},
 
 		{
+			title: 'EXPERIENCE',
 			'conventional': {
-				title: 'Conventional Experience',
-				text: 'placeholder'
+				entries: [{x: 'placeholder', y: 'placeholder'}]
 			},
 			'honest': {
-				title: 'Honest Experience',
-				text: 'placeholder'
+				entries: [{x: 'placeholder', y: 'placeholder',
+						   z: 'placeholder'}]
 			},
 			'verbose': {
-				title: 'Verbose Experience',
-				text: 'placeholder' 
+				entries: [{x: 'placeholder', y: 'placeholder',
+						   z: 'placeholder'}]
 			}
 		},
 
 		{
+			title: 'PERSONAL',
 			'conventional': {
-				title: 'Conventional Personal',
-				text: 'placeholder'
+				entries: [{x: 'placeholder', y: 'placeholder'}]
 			},
 			'honest': {
-				title: 'Honest Personal',
-				text: 'placeholder'
+				entries: [{x: 'placeholder', y: 'placeholder',
+						   z: 'placeholder'}]
 			},
 			'verbose': {
-				title: 'Verbose Personal',
-				text: 'placeholder' 
+				entries: [{x: 'placeholder', y: 'placeholder',
+						   z: 'placeholder'}]
 			}
 		}
 	];
-	$scope.modes = [
-		'Conventional', 'Honest', 'Verbose'];
+	$scope.modes = ['Conventional', 'Honest', 'Verbose'];
 	$scope.selection = $scope.modes[0];
+	$scope.name = 'MAX CHARLES COMPTON TREVITT';
+	$scope.github = 'github.com/maxcct';
+	$scope.linkedin = 'linkedin.com/in/maxcct';
+	$scope.email = 'maxcct@cantab.net';
+	$scope.mobile = '55 2183 8926';
 	}]);
 })(window.angular);

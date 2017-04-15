@@ -1,3 +1,60 @@
 body {
-  font-family: 'Asar', serif;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+	background-color: #333;
+	max-width: 100%;
+	margin: 0 auto;
+	color: white;
+	padding-bottom: 5px;
+	box-shadow: 0 0 10px #999;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 2em;
+	padding-top: 12px;
+}
+
+#left-details, #right-details {
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 5px;
+}
+
+#right-details {
+	margin-top: 15px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightblue;
+}
+
+select {
+	width: 100%;
+	text-indent: 4%;
+	background-color: #333;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: white;
+	box-shadow: 0 0 2px #999;
+	letter-spacing: 2px;
+}
+
+h3 {
+	text-align: center;
+	margin: 15px 0 -2px 0;
+	letter-spacing: 3px;
+}
+
+.ng-binding {
+	margin-top: 5px;
 }
