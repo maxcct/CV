@@ -7,13 +7,21 @@
 			title: 'EDUCATION',
 			'conventional': {
 				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
-						  {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class'}]
+						  {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class'},
+						  {x: 'Stanford University on Coursera', y: 'Machine Learning'},
+						  {x: 'MITx on edX', y: 'Introduction to Computer Science'}]
 			},
 			'honest': {
-				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
+				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},			
 					      {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class',
 						   z: 'Cambridge BAs are automatically upgraded to MA (Cantab) a few years after graduating.' +
-							  ' This is a little ridiculous.'}]
+							  ' This is a little ridiculous.'},
+						  {x: 'Stanford University / Coursera', y: 'Machine Learning',
+						   z: 'This is an 11-week Mooc that outlines the algorithms and techniques used in the most' +
+						      'common approaches to machine leaning.'},
+						  {x: 'MITx on edX', y: 'Introduction to Computer Science',
+						   z: 'This is a seven-week Mooc that outlines the fundamental concepts of computer science' +
+						      'common approaches to machine leaning.'}]
 			},
 			'verbose': {
 				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
@@ -41,7 +49,7 @@
 		},
 
 		{
-			title: 'PERSONAL',
+			title: 'PROJECTS',
 			'conventional': {
 				entries: [{x: 'placeholder', y: 'placeholder'}]
 			},

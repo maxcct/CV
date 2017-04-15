@@ -25,9 +25,9 @@
 			</div>
 			<div class="col-md-2" id="right-details">{{ email }}<br>{{ mobile }}</div>
 		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-4" ng-repeat="section in sections">
+		<div class="row spacer"></div>
+		<div class="row main">
+			<div class="col-md-4 section" ng-repeat="section in sections" align="center">
 				<select ng-model="selection" ng-options="mode for mode in $parent.modes"></select>
 				<div class="animate-switch-container container" ng-switch on="selection">
 					<h3><strong>{{ section.title }}</strong></h3>
