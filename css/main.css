@@ -1,4 +1,8 @@
 @media screen and (max-width: 992px) {
+	body {
+		background-image: none !important;
+	}
+
 	.container {
 		padding: 0 !important;
 	}
@@ -36,6 +40,8 @@
 
 body {
 	font-family: 'PT Sans', sans-serif;
+	background-image: url("wave.jpg");
+	background-size: 100%;
 }
 
 .container {
