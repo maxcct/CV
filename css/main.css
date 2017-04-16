@@ -121,6 +121,20 @@ h3 {
 	letter-spacing: 3px;
 }
 
+hr {
+	border-top: 1px solid;
+	margin: 20px -30px;
+	opacity: 0.2;
+}
+
+.top {
+	margin-bottom: -3px;
+}
+
+.entry {
+	margin-bottom: 20px;
+}
+
 .ng-binding {
 	margin-top: 5px;
 }

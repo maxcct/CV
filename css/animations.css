@@ -1,7 +1,7 @@
 .animate-switch-container {
   position:relative;
   background: rgba(245,245,245,0.88);
-  height: 800px;
+  min-height: 400px;
   max-width: 100%;
   overflow:hidden;
   box-shadow: 0 0 4px #999;

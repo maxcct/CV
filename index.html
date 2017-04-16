@@ -37,24 +37,32 @@
 					<select ng-model="selection" ng-options="mode for mode in $parent.modes"></select>
 					<div class="animate-switch-container container" ng-switch on="selection">
 						<h3><strong>{{ section.title }}</strong></h3>
+						<hr class="top">
 						<div class="animate-switch" ng-switch-when="Honest">
-							<div ng-repeat="entry in section.honest.entries">
-								<h5><strong>{{ entry.x }}</strong></h5>
-								<p><em>{{ entry.y }}</em></p>
+							<div ng-repeat="entry in section.honest.entries" class="entry">
+								<h4><strong>{{ entry.w | uppercase }}</strong></h4>
+								<p><em>{{ entry.x }}</em></p>
+								<p><strong>{{ entry.y }}</strong></p>
 								<p>{{ entry.z }}</p>
+								<hr>
 							</div>
 						</div>
 						<div class="animate-switch" ng-switch-when="Verbose">
-							<div ng-repeat="entry in section.verbose.entries">
-								<h5><strong>{{ entry.x }}</strong></h5>
-								<p><em>{{ entry.y }}</em></p>
+							<div ng-repeat="entry in section.verbose.entries" class="entry">
+								<h4><strong>{{ entry.w | uppercase }}</strong></h4>
+								<p><em>{{ entry.x }}</em></p>
+								<p><strong>{{ entry.y }}</strong></p>
 								<p>{{ entry.z }}</p>
+								<hr>
 							</div>
 						</div>
 						<div class="animate-switch" ng-switch-default>
-							<div ng-repeat="entry in section.conventional.entries">
-								<h5><strong>{{ entry.x }}</strong></h5>
-								<p><em>{{ entry.y }}</em></p>
+							<div ng-repeat="entry in section.conventional.entries" class="entry">
+								<h4><strong>{{ entry.w | uppercase }}</strong></h4>
+								<p><em>{{ entry.x }}</em></p>
+								<p><strong>{{ entry.y }}</strong></p>
+								<p>{{ entry.z }}</p>
+								<hr>
 							</div>
 						</div>
 					</div>
