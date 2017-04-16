@@ -1,6 +1,6 @@
 (function(angular) {
 	'use strict';
-	angular.module('cvApp', ['ngAnimate'])
+	angular.module('cvApp', ['ngAnimate', 'ngMaterial'])
 	.controller('MainController', ['$scope', function($scope) {
 	$scope.sections = [
 		{	
@@ -65,6 +65,9 @@
 	];
 	$scope.modes = ['Conventional', 'Honest', 'Verbose'];
 	$scope.selection = $scope.modes[0];
+	$scope.backgrounds = ['img/la-muse.jpg', 'img/wave.jpg', 'img/scream.jpg', 'img/rain-princess.jpg',
+						  'img/udnie.jpg', 'img/wreck.jpg', 'img/road.jpg'];
+	$scope.slider = 0;
 	$scope.name = 'MAX CHARLES COMPTON TREVITT';
 	$scope.github = 'github.com/maxcct';
 	$scope.linkedin = 'linkedin.com/in/maxcct';
