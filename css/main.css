@@ -16,6 +16,10 @@
 	select {
 		width: 30% !important;
 	}
+
+	.main .section:not(:first-child) {
+		margin-top: 20px;
+	}
 }
 
 @media screen and (max-width: 550px) {
