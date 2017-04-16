@@ -37,6 +37,7 @@
 body {
 	font-family: 'PT Sans', sans-serif;
 	padding: 0 !important;
+	background-color: black;
 }
 
 #background {
@@ -53,7 +54,7 @@ body {
 	z-index: 10000;
 	width: 100%;
 	color: white;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	background: rgba(0,0,0,.8);
 	margin: 0;
 	opacity: 0.8;
