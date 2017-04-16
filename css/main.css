@@ -1,13 +1,3 @@
-@media screen and (orientation: portrait) {
-	#slider-landscape {
-		display: none !important;
-	}
-
-	#slider-portait {
-		display: block !important;
-	}
-}
-
 @media screen and (max-width: 992px) {
 	.container {
 		padding: 0 !important;
@@ -99,12 +89,8 @@ a:hover {
 	height: 100px;
 }
 
-#slider-landscape, #slider-portait {
+#slider {
 	padding: 0 9%;
-}
-
-#slider-portait {
-	display: none;
 }
 
 .main {

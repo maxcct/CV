@@ -13,7 +13,7 @@
   		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
-		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 
 	<body ng-app="cvApp" ng-controller="MainController" class="container">
@@ -30,11 +30,8 @@
 				<div class="col-md-2" id="right-details">{{ email }}<br>{{ mobile }}</div>
 			</div>
 			<div class="row spacer"></div>
-			<div class="row" id="slider-landscape">
-				<md-slider md-discrete ng-model="slider-landscape" min="0" max="6" aria-label="background image"></md-slider>
-			</div>
-			<div class="row" id="slider-portrait">
-				<md-slider md-discrete ng-model="slider-portrait" min="0" max="6" aria-label="background image"></md-slider>
+			<div class="row" id="slider">
+				<md-slider md-discrete ng-model="slider" min="0" max="6" aria-label="background image"></md-slider>
 			</div>
 			<div class="row main">
 				<div class="col-md-4 section" ng-repeat="section in sections" align="center">
