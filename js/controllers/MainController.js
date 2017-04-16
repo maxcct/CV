@@ -15,13 +15,13 @@
 				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},			
 					      {x: 'University of Cambridge', y: 'Master of Arts (Cantab) in English, Upper Second Class',
 						   z: 'Cambridge BAs are automatically upgraded to MA (Cantab) a few years after graduating.' +
-							  ' This is a little ridiculous.'},
+							  ' This is, I acknowledge, a little ridiculous.'},
 						  {x: 'Stanford University / Coursera', y: 'Machine Learning',
 						   z: 'This is an 11-week Mooc that outlines the algorithms and techniques used in the most' +
-						      'common approaches to machine leaning.'},
+						      'common approaches to machine leaning. I passed with a total score of 99.6%.'},
 						  {x: 'MITx on edX', y: 'Introduction to Computer Science',
-						   z: 'This is a seven-week Mooc that outlines the fundamental concepts of computer science' +
-						      'common approaches to machine leaning.'}]
+						   z: 'This is a seven-week Mooc that outlines the fundamental concepts of computer science.' +
+							  ' I passed with a total score of 99.2%.'}]
 			},
 			'verbose': {
 				entries: [{x: 'Udacity', y: 'Full-Stack Web Developer Nanodegree'},
@@ -29,7 +29,17 @@
 						   z: 'I received firsts for my dissertations, but was dragged down by my exam scores, ' +
 						   	  'because my handwriting is hopelessly slow and I was always physically incapable of ' +
 						   	  'writing three complete essay answers in three hours. The fact that that archaic ' +
-						   	  'technology is still used for examinations seems absurd to me.'}]
+						   	  'technology is still used for examinations seems absurd to me.'},
+						  {x: 'Stanford University / Coursera', y: 'Machine Learning',
+						   z: 'This is an 11-week Mooc that outlines the algorithms and techniques used in the most' +
+						      'common approaches to machine learning. It covers linear and logistic regression, SVUs,' +
+						      'K-means clustering, collaborative filtering and online learning, among other algorithms.' +
+						      'It also covers topics such as bias and variance and feature normalisation. I passed ' +
+						      'with a total score of 99.6%.'},
+						  {x: 'MITx on edX', y: 'Introduction to Computer Science and Programming Using Python',
+						   z: 'This is a seven-week Mooc that outlines the fundamental concepts of computer science' +
+							  ' using Python. It covers subjects such as data structures, Big(O) notation, search ' +
+							  'and sort algorithms, and so on. I passed with a total score of 99.2%.'}]
 			}
 		},
 

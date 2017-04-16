@@ -13,10 +13,6 @@
 		height: 10px !important;
 	}
 
-	.section {
-		margin-top: 30px;
-	}
-
 	select {
 		width: 30% !important;
 	}
@@ -51,11 +47,12 @@ body {
 .header {
 	position: fixed;
 	z-index: 10000;
-	background-color: black;
 	width: 100%;
 	color: white;
 	padding-bottom: 5px;
-	opacity: 0.5;
+	background: rgba(0,0,0,.8);
+	margin: 0;
+	opacity: 0.8;
 }
 
 h1 {
@@ -63,6 +60,7 @@ h1 {
 	letter-spacing: 2px;
 	font-size: 2em;
 	padding-top: 12px;
+	opacity: 1;
 }
 
 #left-details, #right-details {
@@ -87,6 +85,7 @@ a:hover {
 .spacer {
 	width: 100%;
 	height: 100px;
+	margin: 0;
 }
 
 #slider {
@@ -100,7 +99,7 @@ a:hover {
 
 select {
 	width: 60%;
-	background-color: black;
+	background: rgba(0,0,0,.8);
 	border-radius: 20px;
 	margin-bottom: 10px;
 	padding: 5px;
@@ -108,7 +107,7 @@ select {
 	box-shadow: 0 0 2px #999;
 	letter-spacing: 2px;
 	text-align-last:center;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 h3 {
