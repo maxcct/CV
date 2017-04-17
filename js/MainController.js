@@ -145,7 +145,7 @@
 						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap.'},
 
 						  {w: 'Neighbourhood Map',
-						   x: 'maxcct.github.io',
+						   x: 'maxcct.github.io/neighborhood-map',
 						   z: 'Interactive Google Maps-based web app, built using JavaScript, Knockout, jQuery and Wikipedia API.'},
 
 						  {w: 'NGO Emporium',
@@ -166,7 +166,7 @@
 						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. This is the first project I’ve completed 100% independently. The following four were all part of the Udacity Nanodegrees, but they’re not handholdy: you have to build them on your own, though – for the projects I ended up completing as the NGO Emporium and the Multi-User Blog – you’re walked through some of the initial framework construction.'},
 
 						  {w: 'Neighbourhood Map',
-						   x: 'maxcct.github.io',
+						   x: 'maxcct.github.io/neighborhood-map',
 						   z: 'Interactive Google Maps-based web app, built using JavaScript, Knockout, jQuery and Wikipedia API.'},
 
 						  {w: 'NGO Emporium',
@@ -187,7 +187,7 @@
 						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. If you haven’t noticed it, please try moving around the slider above. The various backgrounds are versions of a photograph of me walking down the centre of the road that leads to Monument Valley in the US, taken by my mother (thatcamelwoman on Flickr). These different versions were created using a Tensorflow application (built by Logan Engstrom (github.com/lengstrom/fast-style-transfer), not me) that transfers styles from artwork to other images. The style sources are, respectively, Pablo Picasso’s ‘La Muse’, Leonid Afremov’s ‘Rain Princess’, Edvard Munch’s ‘Scream’, Francis Picabia’s ‘Udnie’, Hokusai’s ‘The Great Wave Off Kanagawa’ and Joseph Turner’s ‘The Shipwreck of the Minotaur’, plus a black-and-white version of the original photograph.'},
 
 						  {w: 'Neighbourhood Map',
-						   x: 'maxcct.github.io',
+						   x: 'maxcct.github.io/neighborhood-map',
 						   z: 'Interactive Google Maps-based web app, built using JavaScript, Knockout, jQuery and Wikipedia API.'},
 
 						  {w: 'NGO Emporium',
