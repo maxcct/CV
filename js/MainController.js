@@ -140,21 +140,67 @@
 		{
 			title: 'PROJECTS',
 			'conventional': {
-				entries: [{w: '.',
-						   x: 'placeholder',
-						   y: 'placeholder'}]
+				entries: [{w: 'Interactive Resumé',
+						   x: 'github.com/maxcct/cv',
+						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap.'},
+
+						  {w: 'Neighbourhood Map',
+						   x: 'maxcct.github.io',
+						   z: 'Interactive Google Maps-based web app, built using JavaScript, Knockout, jQuery and Wikipedia API.'},
+
+						  {w: 'NGO Emporium',
+						   x: 'ec2-34-207-99-196.compute-1.amazonaws.com',
+						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy and OAuth 2.'},
+
+						  {w: 'Multi-User Blog',
+						   x: 'hwapp123.appspot.com/blog',
+						   z: 'Built using Python, Jinja2, HTML/CSS, Google App Engine and Google Cloud Datastore.'},
+
+						  {w: 'Tournament Simulator',
+						   x: 'github.com/maxcct/tournament',
+						   z: 'Used Python and PostgreSQL to simulate ‘Swiss-system’ tournaments and store results in a database.'}]
 			},
 			'honest': {
-				entries: [{w: '.',
-						   x: 'placeholder',
-						   y: 'placeholder',
-						   z: 'placeholder'}]
+				entries: [{w: 'Interactive Resumé',
+						   x: 'github.com/maxcct/cv',
+						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. This is the first project I’ve completed 100% independently. The following four were all part of the Udacity Nanodegrees, but they’re not handholdy: you have to build them on your own, though – for the projects I ended up completing as the NGO Emporium and the Multi-User Blog – you’re walked through some of the initial framework construction.'},
+
+						  {w: 'Neighbourhood Map',
+						   x: 'maxcct.github.io',
+						   z: 'Interactive Google Maps-based web app, built using JavaScript, Knockout, jQuery and Wikipedia API.'},
+
+						  {w: 'NGO Emporium',
+						   x: 'ec2-34-207-99-196.compute-1.amazonaws.com',
+						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy and OAuth 2.'},
+
+						  {w: 'Multi-User Blog',
+						   x: 'hwapp123.appspot.com/blog',
+						   z: 'Built using Python, Jinja2, HTML/CSS, Google App Engine and Google Cloud Datastore.'},
+
+						  {w: 'Tournament Simulator',
+						   x: 'github.com/maxcct/tournament',
+						   z: 'Used Python and PostgreSQL to simulate ‘Swiss-system’ tournaments and store results in a database.'}]
 			},
 			'verbose': {
-				entries: [{w: '.',
-						   x: 'placeholder',
-						   y: 'placeholder',
-						   z: 'placeholder'}]
+				entries: [{w: 'Interactive Resumé',
+						   x: 'github.com/maxcct/cv',
+						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. If you haven’t noticed it, please try moving around the slider above. The various backgrounds are versions of a photograph of me walking down the centre of the road that leads to Monument Valley in the US, taken by my mother (thatcamelwoman on Flickr). These different versions were created using a Tensorflow application (built by Logan Engstrom (github.com/lengstrom/fast-style-transfer), not me) that transfers styles from artwork to other images. The style sources are, respectively, Pablo Picasso’s ‘La Muse’, Leonid Afremov’s ‘Rain Princess’, Edvard Munch’s ‘Scream’, Francis Picabia’s ‘Udnie’, Hokusai’s ‘The Great Wave Off Kanagawa’ and Joseph Turner’s ‘The Shipwreck of the Minotaur’, plus a black-and-white version of the original photograph.'},
+
+						  {w: 'Neighbourhood Map',
+						   x: 'maxcct.github.io',
+						   z: 'Interactive Google Maps-based web app, built using JavaScript, Knockout, jQuery and Wikipedia API.'},
+
+						  {w: 'NGO Emporium',
+						   x: 'ec2-34-207-99-196.compute-1.amazonaws.com',
+						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy and OAuth 2.'},
+
+						  {w: 'Multi-User Blog',
+						   x: 'hwapp123.appspot.com/blog',
+						   z: 'Built using Python, Jinja2, HTML/CSS, Google App Engine and Google Cloud Datastore.'},
+
+						  {w: 'Tournament Simulator',
+						   x: 'github.com/maxcct/tournament',
+						   z: 'Used Python and PostgreSQL to simulate ‘Swiss-system’ tournaments and store results in a database.'}]
 			}
 		}
 	];

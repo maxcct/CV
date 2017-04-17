@@ -19,9 +19,9 @@
 		<div id="background" ng-attr-style="background-image: url({{ backgrounds[slider] }});">
 			<div class="header row">
 				<div class="col-md-2" id="left-details">
-					<a href="http://{{ github }}">{{ github }}</a>
+					<a class="details-link" href="http://{{ github }}">{{ github }}</a>
 					<br>
-					<a href="http://{{ linkedin }}">{{ linkedin }}</a>
+					<a class="details-link" href="http://{{ linkedin }}">{{ linkedin }}</a>
 				</div>
 				<div class="col-md-8">
 					<h1>{{ name }}</h1>
@@ -59,7 +59,8 @@
 						<div class="animate-switch" ng-switch-default>
 							<div ng-repeat="entry in section.conventional.entries" class="entry">
 								<h4><strong>{{ entry.w | uppercase }}</strong></h4>
-								<p><em>{{ entry.x }}</em></p>
+								<p ng-if="section.title != 'PROJECTS'"><em>{{ entry.x }}</em></p>
+								<p ng-if="section.title == 'PROJECTS'"><a href="http://{{ entry.x }}">{{ entry.x }}</a></p>
 								<p><strong>{{ entry.y }}</strong></p>
 								<p>{{ entry.z }}</p>
 								<hr>
