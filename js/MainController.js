@@ -94,12 +94,12 @@
 						  {w: 'Southbank Centre',
 						   x: 'Aug 2015 to present',
 						   y: 'Freelance Copyeditor',
-						   z: 'General editorial work (website content, brochures, programmes, marketing materials, etc.), performed remotely. This is tedious work, though the subject matter is often interesting. For example, at the time of writing, the last job I did for Southbank Centre involved editing a note written by Steve Reich on his composition ‘Drumming’.'},
+						   z: 'General editorial work (website content, brochures, programmes, marketing materials, etc.), performed remotely. I have had enough of this kind of work for one life time, though the subject matter is often interesting. For example, at the time of writing, the last job I did for Southbank Centre involved editing a note written by Steve Reich on his composition ‘Drumming’.'},
 
 						  {w: 'wordy.com',
 						   x: 'Dec 2015 to present',
 						   y: 'Copyeditor',
-						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. This is also tedious work – I’m just sick to death of copyediting, basically – but wordy.com is a well-designed platform, and it treats its workers excellently.'},
+						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. Again, I really want to get away from this kind of work – I’m just sick to death of copyediting, basically – but wordy.com is a well-designed platform, and it treats its workers excellently.'},
 
 						  {w: 'Groupon UK&IE',
 						   x: 'Apr 2011 to Sep 2014',
@@ -108,7 +108,7 @@
 			},
 			'verbose': {
 				entries: [{w: 'Preface',
-						   z: 'I do not yet have any professional experience as a coder, but here is pretty much everything else I’ve ever done in a professional (or, in the case of Wildcat Dispatches, volunteer) capacity, with the exception of some call centre work I did when I was 18 in order to save money to travel in Asia and some miscellaneous freelancing.'},
+						   z: 'I do not yet have any professional experience as a coder, but here is pretty much everything else I’ve ever done in a professional (or, in the case of Wildcat Dispatches, volunteer) capacity, with the exception of some call centre work I did when I was 18 in order to save money to travel in Asia, and some miscellaneous freelancing.'},
 
 						  {w: 'Wildcat Dispatches: For Dangerous Times',
 						   x: 'Nov 2016 to present',
@@ -140,7 +140,11 @@
 		{
 			title: 'PROJECTS',
 			'conventional': {
-				entries: [{w: 'Interactive Resumé',
+				entries: [{w: 'Elemental',
+						   x: 'https://github.com/maxcct/quintessence',
+						   z: 'A virtual board game played on a chess-like board. Built in Python.'},
+
+						  {w: 'Interactive Résumé',
 						   x: 'github.com/maxcct/cv',
 						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap.'},
 
@@ -161,7 +165,11 @@
 						   z: 'Used Python and PostgreSQL to simulate ‘Swiss-system’ tournaments and store results in a database.'}]
 			},
 			'honest': {
-				entries: [{w: 'Interactive Resumé',
+				entries: [{w: 'Elemental',
+						   x: 'https://github.com/maxcct/quintessence',
+						   z: "A virtual board game played on a 24x24 chess board. Built in Python. I'm pretty proud of it – it's legitimately fun!"},
+
+						  {w: 'Interactive Résumé',
 						   x: 'github.com/maxcct/cv',
 						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. This is the first project I’ve completed 100% independently. The following four were all part of the Udacity Nanodegrees, but they’re not handholdy: you have to build them on your own, though – for the projects I ended up completing as the NGO Emporium and the Multi-User Blog – you’re walked through some of the initial framework construction.'},
 
@@ -182,7 +190,11 @@
 						   z: 'Used Python and PostgreSQL to simulate ‘Swiss-system’ tournaments and store results in a database.'}]
 			},
 			'verbose': {
-				entries: [{w: 'Interactive Resumé',
+				entries: [{w: 'Elemental',
+						   x: 'https://github.com/maxcct/quintessence',
+						   z: "A virtual board game played on a 24x24 chess board. Each player has three sets of air, fire, water and earth pieces. Each element has its own moveset and can attack one opposing element. Victory is achieved by getting one of each element to your opponent's side of the board, or by destroying all three of any of your opponent's element types (which would make it impossible for them to win). Built in Python."},
+
+						  {w: 'Interactive Résumé',
 						   x: 'github.com/maxcct/cv',
 						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. If you haven’t noticed it, please try moving around the slider above. The various backgrounds are versions of a photograph of me walking down the centre of the road that leads to Monument Valley in the US, taken by my mother (thatcamelwoman on Flickr). These different versions were created using a Tensorflow application (built by Logan Engstrom (github.com/lengstrom/fast-style-transfer), not me) that transfers styles from artwork to other images. The style sources are, respectively, Pablo Picasso’s ‘La Muse’, Leonid Afremov’s ‘Rain Princess’, Edvard Munch’s ‘Scream’, Francis Picabia’s ‘Udnie’, Hokusai’s ‘The Great Wave Off Kanagawa’ and Joseph Turner’s ‘The Shipwreck of the Minotaur’, plus a black-and-white version of the original photograph.'},
 
