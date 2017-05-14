@@ -30,7 +30,9 @@
 			</div>
 			<div class="row spacer"></div>
 			<div class="row" id="slider">
-				<md-slider md-discrete ng-model="slider" min="0" max="6" aria-label="background image"></md-slider>
+				<div id="slider-background">
+					<md-slider md-discrete ng-model="slider" min="0" max="6" aria-label="background image"></md-slider>
+				</div>
 			</div>
 			<div class="row main">
 				<div class="col-md-4 section" ng-repeat="section in sections" align="center">

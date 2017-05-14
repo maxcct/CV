@@ -13,6 +13,10 @@
 		height: 10px !important;
 	}
 
+	#slider-background {
+		margin: 0 0 10px 0 !important;
+	}
+
 	select {
 		width: 30% !important;
 	}
@@ -95,6 +99,12 @@ a:hover {
 
 #slider {
 	padding: 0 9%;
+}
+
+#slider-background {
+	background: rgba(0,0,0,.3);
+	border-radius: 30px;
+	margin: -5px 0 15px 0;
 }
 
 .main {

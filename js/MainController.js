@@ -47,12 +47,12 @@
 				entries: [{w: 'Udacity',
 						   x: 'Dec 2016 – Mar 2017',
 						   y: 'Full-Stack Web Developer Nanodegree',
-						   z: 'This mode of education is evidently still in its infancy – the course has a bit of a rapidly cobbled-together feel that occasionally makes things more difficult than they need to be – but I believe it’s the future. Anyone from anywhere in the world can get trained up to a professional level in a broad range of computer programming disciplines, if they can scrape together US$200 a month. Quite a bit of money, but nothing like the kind of investment required for a college/university degree, and much more comprehensive than a bootcamp.'},
+						   z: 'This mode of education is evidently still in its infancy, but I believe it’s the future. Anyone from anywhere in the world can get trained up to a professional level in a broad range of computer programming disciplines, if they can scrape together US$200 a month. Quite a bit of money, but nothing like the kind of investment required for a college/university degree, and much more comprehensive than a bootcamp.'},
 
 						  {w: 'University of Cambridge',
 						   x: '2007–10',
 						   y: 'Master of Arts (Cantab) in English, Upper Second Class',
-						   z: 'Why English, given I’m now a computer programmer? The schools I attended prior to university were barely functioning institutions whose energies were focused on getting as many students as possible to meet minimal educational requirements. I had literally never heard of computer science at the time I was applying for universities. Though I have always been at least as devoted to science as the arts, the mathematics education I’d received was hopelessly inadequate and so I felt excluded from physics, the scientific discipline I was most drawn to. Literary analysis, on the other hand, is a subject that draws much more on innate talent and simple volume and attentiveness of reading. My proficiency in the subject was much more manifestly evident, and I knew I could get accepted anywhere to study English, whereas my options would be much more limited in the natural sciences (let alone computer science, which as I say I’d never even been exposed to the idea of). A note on the class of my degree: I received firsts for all my dissertations, but was dragged down by my exam scores, because my handwriting is hopelessly slow and I was always physically incapable of writing three complete essay answers in the allotted three hours. The fact that that archaic technology is still used for examinations seems absurd to me.'},
+						   z: 'Why English, given I’m now a computer programmer? The schools I attended prior to university were nominally functional institutions whose energies were focused on getting as many students as possible to meet minimal educational requirements. Though I have always been at least as devoted to science as the arts, the mathematics education I’d received was rather cursory and so I felt excluded from physics, the scientific discipline I was most drawn to. Literary analysis, on the other hand, is a subject that draws much more on innate talent and simple volume and attentiveness of reading. My proficiency in the subject was much more manifestly evident, and I knew I could get accepted anywhere to study English, whereas my options would be much more limited in the natural sciences (let alone computer science, I’d never even been exposed to the idea of). A note on the class of my degree: I received firsts for all my dissertations, but was dragged down by my exam scores, because my handwriting is slow and I was always physically incapable of writing three complete essay answers in the allotted three hours. The fact that that archaic technology is still used for examinations seems absurd to me.'},
 
 						  {w: 'Stanford University / Coursera',
 						   x: 'Jan – Apr 2017',
@@ -69,13 +69,16 @@
 		{
 			title: 'EXPERIENCE',
 			'conventional': {
-				entries: [{w: 'Preface',
-						   z: 'I do not yet have any professional experience as a coder. The following provides details of my prior career (and the way I continue to pay the bills) as a copyeditor.'},
+				entries: [{w: 'Verso Books',
+						   x: 'Oct 2016 to present',
+						   y: 'Freelance Book Editor',
+						   z: 'General editorial work on a book to be published this year.'},
+
 
 						  {w: 'Southbank Centre',
 						   x: 'Aug 2015 to present',
-						   y: 'Freelance Copyeditor',
-						   z: 'General editorial work (website content, brochures, programmes, marketing materials, etc.), performed remotely.'},
+						   y: 'Freelance Editor',
+						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera).'},
 
 						  {w: 'wordy.com',
 						   x: 'Dec 2015 to present',
@@ -89,17 +92,22 @@
 			},
 			'honest': {
 				entries: [{w: 'Preface',
-						   z: 'I do not yet have any professional experience as a coder. The following provides details of my prior career (and the way I continue to pay the bills) as a copyeditor. I find this work too repetitiousness, too lacking in creativity and too generally unstimulating to wish to persist with – especially by comparison with programming, which I take sincere joy and find immense interest in – but the detail-focused, analytical nature of editing work does have some degree of skill crossover with coding. Plus, my eagerness to escape copyediting is such that I would take on any coding work I’m offered with almost unsettling enthusiasm and devotion.'},
+						   z: 'The following provides details of my career as a copyeditor. I find this work too lacking in creativity to wish to persist with – especially by comparison with programming, which I take sincere joy and find immense interest in – but the detail-focused, analytical nature of editing work does have significant skill crossover with software development.'},
+
+						  {w: 'Verso Books',
+						   x: 'Oct 2016 to present',
+						   y: 'Freelance Book Editor',
+						   z: 'General editorial work on Priyamvada Gopal’s book ‘Insurgent Empire: Anticolonialism and Metropolitan Dissent’.'},
 
 						  {w: 'Southbank Centre',
 						   x: 'Aug 2015 to present',
-						   y: 'Freelance Copyeditor',
-						   z: 'General editorial work (website content, brochures, programmes, marketing materials, etc.), performed remotely. I have had enough of this kind of work for one life time, though the subject matter is often interesting. For example, at the time of writing, the last job I did for Southbank Centre involved editing a note written by Steve Reich on his composition ‘Drumming’.'},
+						   y: 'Freelance Editor',
+						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera), performed remotely. The interesting and worthwhile nature of the subject matter, and the quality of the people who work for Southbank Centre, offset the repetitiousness of the work.'},
 
 						  {w: 'wordy.com',
 						   x: 'Dec 2015 to present',
 						   y: 'Copyeditor',
-						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. Again, I really want to get away from this kind of work – I’m just sick to death of copyediting, basically – but wordy.com is a well-designed platform, and it treats its workers excellently.'},
+						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. As I say I am looking to get away from this kind of work, but wordy.com is a very well-designed platform and it treats its freelancers excellently.'},
 
 						  {w: 'Groupon UK&IE',
 						   x: 'Apr 2011 to Sep 2014',
@@ -108,7 +116,7 @@
 			},
 			'verbose': {
 				entries: [{w: 'Preface',
-						   z: 'I do not yet have any professional experience as a coder, but here is pretty much everything else I’ve ever done in a professional (or, in the case of Wildcat Dispatches, volunteer) capacity, with the exception of some call centre work I did when I was 18 in order to save money to travel in Asia, and some miscellaneous freelancing.'},
+						   z: 'In software development I have found a vocation that consistently gratifies, interests and excites me. Prepared by my intensive studies – and by the analytical, detail-oriented work involving many stakeholders that defined my previous career as an editor, outlined below – I am eager to dedicate myself to this discipline and begin participating in disruptive engineering endeavours.'},
 
 						  {w: 'Wildcat Dispatches: For Dangerous Times',
 						   x: 'Nov 2016 to present',
@@ -116,19 +124,19 @@
 						   z: 'Co-founded this new web-based political magazine. Author pieces, act in an executive editorial capacity and manage the website. Someone else built the site originally as I don’t know Wordpress, but I’ve done a fair bit of work to improve its CSS.'},
 
 						  {w: 'Verso Books',
-						   x: 'Oct 2016',
-						   y: 'Freelance Editor',
-						   z: 'Assembled and arranged Priyamvada Gopal’s book ‘Insurgent Empire: Anticolonialism and Metropolitan Dissent’.'},
+						   x: 'Oct 2016 to present',
+						   y: 'Freelance Book Editor',
+						   z: 'General editorial work on Priyamvada Gopal’s book ‘Insurgent Empire: Anticolonialism and Metropolitan Dissent’, which will be published some time this year.'},
 
 						  {w: 'Southbank Centre',
 						   x: 'Aug 2015 to present',
-						   y: 'Freelance Copyeditor',
-						   z: 'General editorial work (website content, brochures, programmes, marketing materials, etc.), performed remotely. Also wrote copy for a one-off magazine and a number of festival brochures.'},
+						   y: 'Freelance Editor',
+						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera). Southbank Centre is a major British cultural insitution encompassing a complex of artistic venues situated on the south bank of the Thames in London, England.'},
 
 						  {w: 'wordy.com',
 						   x: 'Dec 2015 to present',
 						   y: 'Copyeditor',
-						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services.'},
+						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. Please go ahead and check it out if you are ever in need of occasional work of this nature.'},
 
 						  {w: 'Groupon UK&IE',
 						   x: 'Apr 2011 to Sep 2014',
