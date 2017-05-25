@@ -26,7 +26,7 @@
 				entries: [{w: 'Udacity',
 						   x: '2016–17',
 						   y: 'Full-Stack Web Developer Nanodegree',
-						   z: 'This is legitimately a serious, substantial qualification. It is intended to take around a year to complete, but I finished it in about three months by working on it virtually full time. The course projects, in particular, really require one to do professional-level work with little in the way of handholding.'},
+						   z: 'This is a serious, substantive qualification. It is intended to take around a year to complete, but I finished it in about three months by working on it virtually full time. The course projects, in particular, require one to do professional-level work with little in the way of handholding.'},
 
 					      {w: 'University of Cambridge',
 					       x: '2007–10',
@@ -52,12 +52,12 @@
 						  {w: 'University of Cambridge',
 						   x: '2007–10',
 						   y: 'Master of Arts (Cantab) in English, Upper Second Class',
-						   z: 'Why English, given I’m now a computer programmer? The schools I attended prior to university were nominally functional institutions whose energies were focused on getting as many students as possible to meet minimal educational requirements. Though I have always been at least as devoted to science as the arts, the mathematics education I’d received was rather cursory and so I felt excluded from physics, the scientific discipline I was most drawn to. Literary analysis, on the other hand, is a subject that draws much more on innate talent and simple volume and attentiveness of reading. My proficiency in the subject was much more manifestly evident, and I knew I could get accepted anywhere to study English, whereas my options would be much more limited in the natural sciences (let alone computer science, I’d never even been exposed to the idea of). A note on the class of my degree: I received firsts for all my dissertations, but was dragged down by my exam scores, because my handwriting is slow and I was always physically incapable of writing three complete essay answers in the allotted three hours. The fact that that archaic technology is still used for examinations seems absurd to me.'},
+						   z: 'Why English? I was torn between literature and physics, but the schools I attended prior to university were, it’s fair to say, not the best. Though I had a acquired a decent high-level understanding of relativity and quantum mechanics even before I was a teenager, the mathematics education I’d received was pretty cursory, so a degree in physics would have been a very steep hill to climb. Literary analysis, on the other hand, presents a much lower barrier to entry. I have no regrets, other than that I wish I’d heard of computer science so I could have considered pursuing that discipline. A note on the class of my degree: I received firsts for all my dissertations, but was dragged down to an upper second by my exam scores, because my handwriting is slow and I could never get the words on paper fast enough to write three complete essay answers in the allotted three hours. Thankfully, these days the only time I have to write anything by hand is when filling out immigration cards on planes.'},
 
 						  {w: 'Stanford University / Coursera',
 						   x: 'Jan – Apr 2017',
 						   y: 'Machine Learning',
-						   z: 'This 11-week Mooc outlines the algorithms and techniques used in the most widely used approaches to machine learning, complete with programming exercised conducted in Octave/MATLAB. It covers linear and logistic regression, SVUs, K-means clustering, collaborative filtering and online learning, among other algorithms. It also covers topics such as bias and variance, feature and parameter regularisation normalisation. I passed with a total score of 99.6%.'},
+						   z: 'This 11-week Mooc outlines the algorithms and techniques employed in the most widely used approaches to machine learning, complete with programming exercises conducted in Octave/MATLAB. It covers linear and logistic regression, SVUs, K-means clustering, collaborative filtering and online learning, among other algorithms. It also covers topics such as bias and variance, feature and parameter regularisation normalisation. I passed with a total score of 99.6%.'},
 
 						  {w: 'MITx on edX',
 						   x: 'Jan – Mar 2017',
@@ -69,7 +69,10 @@
 		{
 			title: 'EXPERIENCE',
 			'conventional': {
-				entries: [{w: 'Verso Books',
+				entries: [{w: 'Preface',
+						   z: 'My quiver holds many arrows: JavaScript web design, Python software engineering, full-stack combinations of those two languages, copyediting and copywriting. I’m available for hire in any or all of these capacities, and my rates are bargainously incommensurate with my proficiencies.'},
+
+						  {w: 'Verso Books',
 						   x: 'Oct 2016 to present',
 						   y: 'Freelance Book Editor',
 						   z: 'General editorial work on a book to be published this year.'},
@@ -92,7 +95,7 @@
 			},
 			'honest': {
 				entries: [{w: 'Preface',
-						   z: 'The following provides details of my career as a copyeditor. I find this work too lacking in creativity to wish to persist with – especially by comparison with programming, which I take sincere joy and find immense interest in – but the detail-focused, analytical nature of editing work does have significant skill crossover with software development.'},
+						   z: 'The following provides details of my career as a copyeditor. I am in the process of switching to a more fully creative mode of working, with a much heavier emphasis on programming and book editing. The detail-focused, analytical nature of editing work has significant skill crossover with software development.'},
 
 						  {w: 'Verso Books',
 						   x: 'Oct 2016 to present',
@@ -102,21 +105,21 @@
 						  {w: 'Southbank Centre',
 						   x: 'Aug 2015 to present',
 						   y: 'Freelance Editor',
-						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera), performed remotely. The interesting and worthwhile nature of the subject matter, and the quality of the people who work for Southbank Centre, offset the repetitiousness of the work.'},
+						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera), performed remotely. This is not my ideal kind of work – I prefer substantial, extended, unitary projects – but the subject matter is interesting and worthwhile, and the people who work for Southbank Centre are wonderful.'},
 
 						  {w: 'wordy.com',
 						   x: 'Dec 2015 to present',
 						   y: 'Copyeditor',
-						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. As I say I am looking to get away from this kind of work, but wordy.com is a very well-designed platform and it treats its freelancers excellently.'},
+						   z: 'Rewriting and copyediting for clients of this highly selective online provider of editorial services. Again, I prefer bigger projects, but wordy.com is a very well-designed platform and it treats its freelancers excellently.'},
 
 						  {w: 'Groupon UK&IE',
 						   x: 'Apr 2011 to Sep 2014',
 						   y: 'Editor for London',
-						   z: 'Coordinated editorial for Greater London and Surrey (formerly Northern England). Was responsible for dozens of features a day, involving collaboration with many people in various roles companywide. Played a primary role in effecting a major transition from CMS- to software-based editorial practices. I stuck this job out for nearly three-and-a-half years while saving to go travelling in South America. It taught me that a career as an editor wasn’t for me. The best parts of the job, by far, were those that crossed over into areas that overlapped with programming, such as optimising HTML formatting and creating browser macros and custom-filtered Salesforce reports.'}]
+						   z: 'Coordinated editorial for Greater London and Surrey (formerly Northern England). Was responsible for dozens of features a day, involving collaboration with many people in various roles companywide. Played a primary role in effecting a major transition from CMS- to software-based editorial practices. The best parts of this job, by far, were those that crossed over into areas that overlapped with programming, such as optimising HTML formatting and creating browser macros and custom-filtered Salesforce reports.'}]
 			},
 			'verbose': {
 				entries: [{w: 'Preface',
-						   z: 'In software development I have found a vocation that consistently gratifies, interests and excites me. Prepared by my intensive studies – and by the analytical, detail-oriented work involving many stakeholders that defined my previous career as an editor, outlined below – I am eager to dedicate myself to this discipline and begin participating in disruptive engineering endeavours.'},
+						   z: 'In software development I have found a vocation that consistently gratifies, interests and excites me. Prepared by my intensive studies – and by the analytical, detail-oriented work involving many stakeholders that has defined my career as an editor, outlined below – I am eager to dedicate myself to this discipline and begin participating in disruptive engineering endeavours. I also take great joy in book editing and have found I am adept at efficiently and effectively raising long-form prose to a significantly higher standard in a way that manifests the optimal form of the author’s own intentions, rather than just translating the text into compliance with my own stylistic ideals. As such, I am looking to focus more on work of that nature in addition to coding.'},
 
 						  {w: 'Wildcat Dispatches: For Dangerous Times',
 						   x: 'Nov 2016 to present',
@@ -131,7 +134,7 @@
 						  {w: 'Southbank Centre',
 						   x: 'Aug 2015 to present',
 						   y: 'Freelance Editor',
-						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera). Southbank Centre is a major British cultural insitution encompassing a complex of artistic venues situated on the south bank of the Thames in London, England.'},
+						   z: 'Copyediting, factchecking and copywriting (website content, brochures, programmes, marketing materials, etcetera). Southbank Centre is a major British cultural institution encompassing a complex of artistic venues situated on the south bank of the Thames in London, England.'},
 
 						  {w: 'wordy.com',
 						   x: 'Dec 2015 to present',
@@ -150,7 +153,7 @@
 			'conventional': {
 				entries: [{w: 'Elemental',
 						   x: 'github.com/maxcct/quintessence',
-						   z: 'A virtual board game played on a chess-like board. Built in Python.'},
+						   z: 'A virtual board game played on a chess-like board. Built in Python, using Tkinter for the GUI.'},
 
 						  {w: 'Interactive Résumé',
 						   x: 'github.com/maxcct/cv',
@@ -162,7 +165,7 @@
 
 						  {w: 'NGO Emporium',
 						   x: 'ec2-34-207-99-196.compute-1.amazonaws.com',
-						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy and OAuth 2.'},
+						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy/PostgreSQL, OAuth 2, jQuery and Wikipedia API. I also configured an Apache server on AWS and got the site up and running there.'},
 
 						  {w: 'Multi-User Blog',
 						   x: 'hwapp123.appspot.com/blog',
@@ -175,7 +178,7 @@
 			'honest': {
 				entries: [{w: 'Elemental',
 						   x: 'github.com/maxcct/quintessence',
-						   z: "A virtual board game played on a 24x24 chess board. Built in Python. I'm pretty proud of it – it's legitimately fun!"},
+						   z: "A virtual board game played on a 24x24 chess board. Built in Python, using Tkinter for the GUI. I'm pretty proud of it – it's legitimately fun!"},
 
 						  {w: 'Interactive Résumé',
 						   x: 'github.com/maxcct/cv',
@@ -187,7 +190,7 @@
 
 						  {w: 'NGO Emporium',
 						   x: 'ec2-34-207-99-196.compute-1.amazonaws.com',
-						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy and OAuth 2.'},
+						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy/PostgreSQL, OAuth 2, jQuery and Wikipedia API. I also configured an Apache server on AWS and got the site up and running there.'},
 
 						  {w: 'Multi-User Blog',
 						   x: 'hwapp123.appspot.com/blog',
@@ -200,11 +203,11 @@
 			'verbose': {
 				entries: [{w: 'Elemental',
 						   x: 'github.com/maxcct/quintessence',
-						   z: "A virtual board game played on a 24x24 chess board. Each player has three sets of air, fire, water and earth pieces. Each element has its own moveset and can attack one opposing element. Victory is achieved by getting one of each element to your opponent's side of the board, or by destroying all three of any of your opponent's element types (which would make it impossible for them to win). Built in Python."},
+						   z: "A virtual board game played on a 24x24 chess board. Each player has three sets of air, fire, water and earth pieces. Each element has its own moveset and can attack one opposing element. Victory is achieved by getting one of each element to your opponent's side of the board, or by destroying all three of any of your opponent's element types (which would make it impossible for them to win). Built in Python, using Tkinter for the GUI."},
 
 						  {w: 'Interactive Résumé',
 						   x: 'github.com/maxcct/cv',
-						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. If you haven’t noticed it, please try moving around the slider above. The various backgrounds are versions of a photograph of me walking down the centre of the road that leads to Monument Valley in the US, taken by my mother (thatcamelwoman on Flickr). These different versions were created using a Tensorflow application (built by Logan Engstrom (github.com/lengstrom/fast-style-transfer), not me) that transfers styles from artwork to other images. The style sources are, respectively, Pablo Picasso’s ‘La Muse’, Leonid Afremov’s ‘Rain Princess’, Edvard Munch’s ‘Scream’, Francis Picabia’s ‘Udnie’, Hokusai’s ‘The Great Wave Off Kanagawa’ and Joseph Turner’s ‘The Shipwreck of the Minotaur’, plus a black-and-white version of the original photograph.'},
+						   z: 'This page you’re looking at right now! Built using AngularJS, with a little help from Bootstrap. If you haven’t noticed it, please try moving around the slider above. The various backgrounds are versions of a photograph of me walking down the centre of the road that leads to Monument Valley in the US, taken by Christa Lamb (thatcamelwoman on Flickr). These different versions were created using a Tensorflow application (built by Logan Engstrom (github.com/lengstrom/fast-style-transfer), not me) that transfers styles from artwork to other images. The style sources are, respectively, Pablo Picasso’s ‘La Muse’, Leonid Afremov’s ‘Rain Princess’, Edvard Munch’s ‘Scream’, Francis Picabia’s ‘Udnie’, Hokusai’s ‘The Great Wave Off Kanagawa’ and Joseph Turner’s ‘The Shipwreck of the Minotaur’, plus a black-and-white version of the original photograph.'},
 
 						  {w: 'Neighbourhood Map',
 						   x: 'maxcct.github.io/neighborhood-map',
@@ -212,7 +215,7 @@
 
 						  {w: 'NGO Emporium',
 						   x: 'ec2-34-207-99-196.compute-1.amazonaws.com',
-						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy and OAuth 2.'},
+						   z: 'Database-backed web application with user auth, built using Python, JavaScript, Flask, SQLAlchemy/PostgreSQL, OAuth 2, jQuery and Wikipedia API. I also configured an Apache server on AWS and got the site up and running there.'},
 
 						  {w: 'Multi-User Blog',
 						   x: 'hwapp123.appspot.com/blog',
